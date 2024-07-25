@@ -37,7 +37,8 @@ position: absolute;
 }
     
 .container{
-    padding: 10px 10%;
+    padding: 3% 20%;
+
 
 }
 nav{
@@ -162,12 +163,14 @@ nav ul li a:hover::after{
 }
 /*--------------------services------------------------*/
 #services{
-padding: 30px 0;
+padding: 3%;
+
 }
 .services-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
+   
     font-size: small;
     margin-top: 50px;
 }
@@ -201,6 +204,9 @@ padding: 30px 0;
     background: #ff004f;
     transform: translateY(-10px);
 }
+#portfolio{
+    padding: 3%;
+}
 .project-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -210,11 +216,13 @@ padding: 30px 0;
 }
 .project{
     border-radius: 10px;
+    padding: 3%;
     position: relative;
     overflow: hidden;
 }
 .project img{
     width: 100%;
+    
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
@@ -223,6 +231,7 @@ padding: 30px 0;
 .layer{
     width: 100%;
     height: 0%;
+    
     background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
     border-radius: 10px;
     position: absolute;
@@ -278,6 +287,7 @@ padding: 30px 0;
 } 
 .contact-left{
     flex-basis: 35%;
+    padding: 3%;
 }
 .contact-right{
     flex-basis: 60%;
