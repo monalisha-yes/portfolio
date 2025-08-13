@@ -348,13 +348,77 @@ form .btn2{
     font-weight: 300;
     margin-top: 20px;
 }
-/*------------css for small screen-----------*/
-@media only screen and (max-with: 600px) {
+/* ------------ CSS for small screens ----------- */
+@media only screen and (max-width: 600px) {
 
-    
-}
-#msg{
-    color: #61b752;
-    margin-top: -40px;
-    display: block;
+    .container {
+        padding: 5% 8%;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        padding: 0;
+        margin-top: 15px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .header-text {
+        margin-top: 10%;
+        font-size: 20px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .header-text h1 {
+        font-size: 32px;
+    }
+
+    .image {
+        position: static;
+        width: 80%;
+        height: auto;
+        margin: 20px auto;
+        display: block;
+    }
+
+    .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-col-1,
+    .about-col-2,
+    .contact-left,
+    .contact-right {
+        flex-basis: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .about-col-1 img {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .services-list {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    .project-list {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    .btn {
+        padding: 12px 30px;
+    }
 }
